@@ -342,3 +342,174 @@ The table of contents for this book is as follows:
     *   22\. Degenerate Configurations
         
 *   PART V. Appendices
+
+Top 3 Computer Vision Programmer Books
+--------------------------------------
+
+Programmer books are playbooks (e.g. O’Reilly books) written by experts, often developers and engineers, and are designed to be used as a reference by practitioners.
+
+They focus mainly on techniques and the practical concerns of problem solving with a focus on example code and standard libraries. Techniques may be described briefly with relevant theory (math) but should probably not be used as a primary reference.
+
+I’ve gathered a list of the top three playbooks based on their rank ordering in lists of top computer vision books and on recommendations on discussion websites.
+
+The top three textbooks on computer vision are as follows (in no particular order):
+
+*   [Learning OpenCV 3](https://amzn.to/2EqF0Pv), 2017.
+    
+*   [Programming Computer Vision with Python](https://amzn.to/2QKTaAL), 2012.
+    
+*   [Practical Computer Vision with SimpleCV](https://amzn.to/2QnFqMY), 2012.
+    
+
+Let’s take a closer look at each in turn, including the target audience and table of contents for each book.
+
+### Learning OpenCV 3
+
+This book was written by [Adrian Kaehler](https://www.linkedin.com/in/adriankaehler/) and [Gary Bradski](https://www.linkedin.com/in/garybradski/) and published in 2017. The subtitle of the book is “_Computer Vision in C++ with the OpenCV Library_.”
+
+Learning OpenCV 3
+
+The book focuses on teaching you how to use the OpenCV library, perhaps the premiere open source computer vision library. All code examples are in C++, suggesting that the target audience are professional developers looking to learn how to incorporate computer vision into their applications. Importantly, the authors are board members and founders of OpenCV.
+
+It is a technical book and perhaps more an elaborated API documentation than a playbook.
+
+> This book provides a working guide to the C++ Open Source Computer Vision Library (OpenCV) version 3.x and gives a general background on the field of computer vision sufficient to help readers use OpenCV effectively.
+
+— [Learning OpenCV 3](https://amzn.to/2EqF0Pv), 2017.
+
+This book may be considered an updated version of the older (2008) book Learning “[OpenCV: Computer Vision with the OpenCV Library](https://amzn.to/2QpYiuZ)” by the same authors.
+
+*   [Book’s Homepage (source code)](https://github.com/oreillymedia/Learning-OpenCV-3_examples)
+    
+*   [Book on Amazon](https://amzn.to/2EqF0Pv)
+    
+
+The table of contents for this book is as follows:
+
+*   1\. Overview
+    
+*   2\. Introduction to OpenCV
+    
+*   3\. Getting to Know OpenCV Data Types
+    
+*   4\. Images and Large Array Types
+    
+*   5\. Array Operations
+    
+*   6\. Drawing and Annotating
+    
+*   7\. Functions in OpenCV
+    
+*   8\. Image, Video and Data Files
+    
+*   9\. Cross-Platform and Native Windows
+    
+*   10\. Filters and Convolutions
+    
+*   11\. General Image Transforms
+    
+*   12\. Image Analysis
+    
+*   13\. Histograms and Templates
+    
+*   14\. Contours
+    
+*   15\. Background Subtraction
+    
+*   16\. Keypoints and Descriptors
+    
+*   17\. Tracking
+    
+*   18\. Camera Models and CAlibration
+    
+*   19\. Projection and Three-Dimensional Vision
+    
+*   20\. The Basics of Machine Learning in OpenCV
+    
+*   21\. StatModel: The Standard Model for Learning in OpenCV
+    
+*   22\. Object Detection
+    
+*   23\. Future of OpenCV
+    
+
+### Programming Computer Vision with Python
+
+This book was written by [Jan Erik Solem](https://www.janeriksolem.net/) and published in 2012. The subtitle for the book is “Tools and algorithms for analyzing images.”
+
+Programming Computer Vision with Python
+
+A final draft version of the book is available from the [book’s website](http://programmingcomputervision.com/) in PDF format.
+
+This is a hands-on book that focuses on teaching you how to perform basic computer vision tasks in Python, mostly with PIL, although with a basic introduction to OpenCV as well. I’m a fan of this book, although minor modifications are required to use updated libraries (e.g. [Pillow](https://github.com/python-pillow/Pillow)). An update to this book is due!
+
+> The idea behind this book is to give an easily accessible entry point to hands-on computer vision with enough understanding of the underlying theory and algorithms to be a foundation for students, researchers, and enthusiasts.
+
+— Page vii, [Programming Computer Vision with Python](https://amzn.to/2QKTaAL), 2012.
+
+*   [Book Homepage](http://programmingcomputervision.com/)
+    
+*   [Book on Amazon](https://amzn.to/2QKTaAL)
+    
+
+The table of contents for this book is as follows:
+
+*   1\. Basic Image Handling and Processing
+    
+*   2\. Local Image Descriptors
+    
+*   3\. Image to Image Mappings
+    
+*   4\. Camera Models and Augmented Reality
+    
+*   5\. Multiple View Geometry
+    
+*   6\. Clustering Images
+    
+*   7\. Searching Images
+    
+*   8\. Classifying Image Content
+    
+*   9\. Image Segmentation
+    
+*   10\. OpenCV
+    
+
+### Practical Computer Vision With SimpleCV
+
+This book was written by [Kurt DeMaagd](https://www.linkedin.com/in/kurtdemaagd/), Anthony Oliver, [Nathan Oostendorp](http://oostendorp.net/), and [Katherine Scott](http://www.kscottz.com/), and was published in 2012. The subtitle of the book is “_The Simple Way to Make Technology See_.”
+
+Practical Computer Vision with SimpleCV
+
+This book teaches you how to perform basic computer vision operations using the SimpleCV library in Python. This provides a nice alternative to working with PIL (Pillow) or OpenCV, although I’m not convinced that SimpleCV has been broadly adopted (I’m happy to be proven wrong).
+
+> Learn how to build your own computer vision (CV) applications quickly and easily with SimpleCV, an open source framework written in Python. Through examples of real-world applications, this hands-on guide introduces you to basic CV techniques for collecting, processing, and analyzing streaming digital images.
+
+— [Practical Computer Vision with SimpleCV](https://amzn.to/2QnFqMY), 2012.
+
+*   [Book Homepage](http://simplecv.org/book/)
+    
+*   [Book on Amazon](https://amzn.to/2QnFqMY)
+    
+
+The table of contents for this book is as follows:
+
+*   1\. Introduction
+    
+*   2\. Getting to Know the SimpleCV Framework
+    
+*   3\. Image Sources
+    
+*   4\. Pixels and Images
+    
+*   5\. The Impact of Light
+    
+*   6\. Image Arithmetic
+    
+*   7\. Drawing on Images
+    
+*   8\. Basic Feature Detection
+    
+*   9\. FeatureSet Manipulation
+    
+*   10\. Advanced Features
